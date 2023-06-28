@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.common.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "out",
+  },
+  "exclude": [
+    "node_modules",
+    ".vscode-test",
+    "out"
+  ],
+  "references": [
+    {
+      "path": "../salesforcedx-apex-debugger"
+    },
+    {
+      "path": "../salesforcedx-utils-vscode"
+    },
+    {
+      "path": "../salesforcedx-test-utils-vscode"
+    }
+  ]
+}

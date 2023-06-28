@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "docs",
+    "packages/*"
+  ],
+  "version": "58.4.1",
+  "command": {
+    "version": {
+      "allowBranch": [
+        "develop",
+        "release/*"
+      ]
+    }
+  },
+  "useNx": true
+}

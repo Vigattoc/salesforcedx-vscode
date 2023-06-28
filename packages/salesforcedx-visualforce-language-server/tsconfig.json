@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.common.json",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "out",
+    "strict": false,
+    "noImplicitAny": false
+  },
+  "exclude": [
+    "node_modules",
+    ".vscode-test",
+    "out"
+  ],
+  "references": [
+    {
+      "path": "../salesforcedx-visualforce-markup-language-server"
+    }
+  ]
+}
