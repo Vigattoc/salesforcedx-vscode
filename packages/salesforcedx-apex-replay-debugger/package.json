@@ -35,7 +35,7 @@
     "sinon": "^13.0.1",
     "ts-jest": "28.0.8",
     "typescript": "^4.7.4",
-    "vscode-debugadapter-testsupport": "1.28.0"
+    "vscode-debugadapter-testsupport": "1.51.0"
   },
   "scripts": {
     "bundle:debugger": "esbuild ./src/adapter/apexReplayDebug.ts  --bundle --outfile=dist/apexreplaydebug.js --format=cjs --platform=node --minify",
